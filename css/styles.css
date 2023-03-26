@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+h1 {
+    width: 20%;
+    margin: 0 auto;
+    font-family: "sofia", sans-serif;
+    font-size: 375%; 
+    line-height: 1;
+    color: rgb(70, 4, 93);
+}
+h2 {
+    /* color: rgb(95, 7, 125); */
+    font-size: 35px;
+    font-weight: bold;
+}
+h3 {
+    /* color: rgb(95, 7, 125); */
+    font-family: "trilong", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    line-height: 2;
+    font-weight: bold;
+}
+hr {
+    border-style: dotted none none none;
+    border-width: thick;
+    width: 4%;
+    margin: 5% auto 5% 47%;
+}
+.skill-row h3 {
+    padding-top: 6%;
+    padding-left: 29%;
+}
+.skill-row p {
+    padding-left: 29%;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.top-container {
+    /* background-color: lightblue; */
+    position: relative;
+    padding-top: 13%;
+    background-image:url("https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.middle-container{
+    background-color: #415  8D0;
+   
+
+}
+.bottom-container{
+    
+}
+
+.top-cloud {
+    height: 15%;
+    width: 20%;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    height: 15%;
+    width: 20%;
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+.mountain {
+    height: 50%;
+    width: 50%;
+}
+.p-img {
+    margin-top: 8%;
+}
+.s-img {
+    width: 25%;
+    float: left;
+}
+.s-img2 {
+    width: 22%;
+    float: right;
+    margin-left: 4%;
+}
+a{
+    display: inline-block;
+    margin: 5px;
+    color: #0a00c9;
+    text-decoration: none;
+    transition: 0.4s;
+}
+a:hover{
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn {
+    color: white;
+    background: linear-gradient(0deg, rgba(47,34,195,1) 0%, rgba(200,4,216,1) 100%);
+    margin: 3%;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    transition: 0.4s;
+}
+:hover.btn {
+    background: linear-gradient(0deg, rgba(47,34,195,1) 0%, rgba(216,4,101,1) 100%);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.copyright {
+    font-size: 60%;
+}
